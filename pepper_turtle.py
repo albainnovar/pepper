@@ -11,7 +11,7 @@ class Turtle:
         self.motion = ALProxy("ALMotion", ip, port)
         self.ip = ip
         self.port = port
-        self.tts.say("You can control me now.")
+        # self.tts.say("You can control me now.")
 
     def _movement(self, template, measure, x=0, y=0, degree=0):
         self.tts.say(template.format(measure))
