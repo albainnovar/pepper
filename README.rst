@@ -13,4 +13,3 @@ You need to set the correct IP in the pepper_data.py file.
 
 These files can be found at
 https://github.com/albainnovar/pepper
-
